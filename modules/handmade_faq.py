@@ -214,8 +214,8 @@ def renderInfo(bot, trigger):
 @command('opengl', 'ogl', hide=False, cooldown=10)
 def renderInfo(bot, trigger):
     """Command to give openGL information to the chat target
-    """
-	info(bot, trigger, "While Casey will rewrite the renderer using OpenGL in the future - see !render - the current OpenGL code is to allow for vsync, giving a more predictable frame time.")
+	""" 
+    info(bot, trigger, "While Casey will rewrite the renderer using OpenGL in the future - see !render - the current OpenGL code is to allow for vsync, giving a more predictable frame time.")
 
 @command('learning', 'learnProgramming', 'learn', hide=False, cooldown=10)
 def gettingStartedLearning(bot, trigger):
